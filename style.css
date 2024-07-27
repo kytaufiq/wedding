@@ -48,6 +48,7 @@ body {
 }
 
 .hero a {
+  display: inline-block; /* Ensure the anchor tags are displayed in a line */
   color: var(--pink);
   background-color: white;
   box-shadow: var(--shadow);
@@ -78,7 +79,7 @@ body {
   }
 
   .simply-countdown > .simply-section {
-    padding: 60%;
+    padding: 10%;
     margin: 5px;
   }
 }
@@ -90,7 +91,7 @@ body {
   }
 
   .simply-countdown > .simply-section {
-    padding: 45%;
+    padding: 10%;
     margin: 3px;
   }
 }
